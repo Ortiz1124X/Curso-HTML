@@ -1,0 +1,14 @@
+.body {
+    min-height: 300pt;
+    gap: 3 rem;
+}
+
+@media (min-width: 640px) {
+    div.barra-lateral-izquierda {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+}
